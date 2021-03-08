@@ -16,3 +16,6 @@ ImmutableMultiDict([('phrase', 'the second world war'), ('letters', 'germany')])
 127.0.0.1
 Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0
 {'n', 'a', 'r', 'e'}
+ImmutableMultiDict([('phrase', 'hell have no furry as a women scorned'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'o', 'u', 'e', 'a'}
+ImmutableMultiDict([('phrase', 'say hello say goodbye'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'o', 'e', 'a'}
+ImmutableMultiDict([('phrase', 'aeiou'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'e', 'u', 'a', 'o', 'i'}

@@ -6,10 +6,10 @@ app = Flask(__name__)
 # function to capture and log the results
 def log_request(req: 'flask_request', res: str) -> None:
     with open('vsearch.log', 'a') as log:
-        print(req.form, file=log)
-        print(req.remote_addr, file=log)
-        print(req.user_agent, file=log)
-        print(res, file=log)
+        print(req.form, req.remote_addr, req.user_agent, res, file=log, sep='|') # this line provides a single print statement.
+        #print(req.remote_addr, file=log, end='|')
+        #print(req.user_agent, file=log, end='|')
+        #print(res, file=log)
         #print(str(dir(req)), res, file=log)
 
 @app.route('/search4', methods=['POST'])
