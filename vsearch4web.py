@@ -6,7 +6,8 @@ app = Flask(__name__)
 # function to capture and log the results
 def log_request(req: 'flask_request', res: str) -> None:
     with open('vsearch.log', 'a') as log:
-        print(req.form, req.remote_addr, req.user_agent, res, file=log, sep='|') # this line provides a single print statement.
+        print(req.form, req.remote_addr, req.user_agent, res, file=log, sep='|') 
+        # this line provides a single print statement.
         #print(req.remote_addr, file=log, end='|')
         #print(req.user_agent, file=log, end='|')
         #print(res, file=log)
@@ -33,9 +34,13 @@ def entry_page() -> 'html':
 
 @app.route('/viewlog')
 def view_the_log() -> str:
+    contents = []
     with open('vsearch.log') as log:
-        contents = log.readlines()
-    return escape(''.join(contents))
+        for line in log:
+            contents.append([])
+            for item in line.split('|'):
+                contents[-1].append(escape(item))
+    return str(contents)
 
 if __name__ == '__main__':
     app.run(debug=True)
