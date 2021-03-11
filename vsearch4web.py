@@ -30,14 +30,18 @@ def entry_page() -> 'html':
 
 # view_the_log function - opens the vsearch.log - for loop 'line' in log (file), append to contents list [] - for loop 'item' in 'line' split at the '|' character. append 'item' at the end of contents list. escape allows use of special characters.
 @app.route('/viewlog')
-def view_the_log() -> str:
+def view_the_log() -> 'html':
     contents = []
     with open('vsearch.log') as log:
         for line in log:
             contents.append([])
             for item in line.split('|'):
                 contents[-1].append(escape(item))
-    return str(contents)
+    titles = ('Form Data', 'Remote_addr', 'User_agent', 'Results')
+    return render_template('viewlog.html',
+                            the_title='View Log',
+                            the_row_titles=titles,
+                            the_data=contents,)
 
 if __name__ == '__main__':
     app.run(debug=True)
