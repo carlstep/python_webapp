@@ -2,3 +2,8 @@ ImmutableMultiDict([('phrase', 'isle of dogs'), ('letters', 'aeiou')])|127.0.0.1
 ImmutableMultiDict([('phrase', 'the hitch-hikers guide to the galaxy'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'e', 'u', 'a', 'o', 'i'}
 ImmutableMultiDict([('phrase', "can't get you out of my head"), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'a', 'e', 'u', 'o'}
 ImmutableMultiDict([('phrase', 'the snows of kilimanjaro'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'o', 'i', 'a', 'e'}
+ImmutableMultiDict([('phrase', 'a beautiful african sky'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'e', 'u', 'i', 'a'}
+ImmutableMultiDict([('phrase', 'a beautiful african sky'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'a', 'i', 'e', 'u'}
+ImmutableMultiDict([('phrase', 'a beautiful african sky'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'a', 'i', 'e', 'u'}
+ImmutableMultiDict([('phrase', 'bangkok nights'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'a', 'o', 'i'}
+ImmutableMultiDict([('phrase', 'alfred hitchcock rebecca'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'a', 'o', 'e', 'i'}

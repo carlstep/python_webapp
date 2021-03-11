@@ -8,10 +8,6 @@ def log_request(req: 'flask_request', res: str) -> None:
     with open('vsearch.log', 'a') as log:
         print(req.form, req.remote_addr, req.user_agent, res, file=log, sep='|') 
         # this line provides a single print statement.
-        #print(req.remote_addr, file=log, end='|')
-        #print(req.user_agent, file=log, end='|')
-        #print(res, file=log)
-        #print(str(dir(req)), res, file=log)
 
 @app.route('/search4', methods=['POST'])
 def do_search() -> 'html':
@@ -32,6 +28,7 @@ def entry_page() -> 'html':
     return render_template('entry.html',
                            the_title='Welcome to search4letters on the web!')
 
+# view_the_log function - opens the vsearch.log - for loop 'line' in log (file), append to contents list [] - for loop 'item' in 'line' split at the '|' character. append 'item' at the end of contents list. escape allows use of special characters.
 @app.route('/viewlog')
 def view_the_log() -> str:
     contents = []
