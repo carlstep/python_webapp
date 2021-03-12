@@ -28,7 +28,7 @@ def entry_page() -> 'html':
     return render_template('entry.html',
                            the_title='Welcome to search4letters on the web!')
 
-# view_the_log function - opens the vsearch.log - for loop 'line' in log (file), append to contents list [] - for loop 'item' in 'line' split at the '|' character. append 'item' at the end of contents list. escape allows use of special characters.
+# view_the_log function (logging searches to the log file) - opens the vsearch.log - for loop 'line' in log (file), append to contents list [] - for loop 'item' in 'line' split at the '|' character. append 'item' at the end of contents list. escape allows use of special characters.
 @app.route('/viewlog')
 def view_the_log() -> 'html':
     contents = []

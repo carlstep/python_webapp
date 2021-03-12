@@ -7,3 +7,6 @@ ImmutableMultiDict([('phrase', 'a beautiful african sky'), ('letters', 'aeiou')]
 ImmutableMultiDict([('phrase', 'a beautiful african sky'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'a', 'i', 'e', 'u'}
 ImmutableMultiDict([('phrase', 'bangkok nights'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'a', 'o', 'i'}
 ImmutableMultiDict([('phrase', 'alfred hitchcock rebecca'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'a', 'o', 'e', 'i'}
+ImmutableMultiDict([('phrase', 'this sporting life'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'o', 'e', 'i'}
+ImmutableMultiDict([('phrase', 'the detectorists'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0|{'o', 'i', 'e'}
+ImmutableMultiDict([('phrase', 'the seawise giant'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15|{'i', 'e', 'a'}
